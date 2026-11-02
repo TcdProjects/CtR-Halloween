@@ -621,18 +621,6 @@ namespace CutTheRopeDX.GameMain
             _ = vBox.AddChild(playButton);
             Button optionsButton = CreateButtonWithTextIDDelegate(Application.GetString("OPTIONS"), MenuButtonId.Options, this);
             _ = vBox.AddChild(optionsButton);
-            if (PlatformServices.Host?.CanExit == true)
-            {
-                Button exitButton = CreateButtonWithTextIDDelegate(Application.GetString("QUIT_BUTTON"), MenuButtonId.ShowQuitPopup, this);
-                _ = vBox.AddChild(exitButton);
-            }
-            else if (!string.IsNullOrEmpty(PlatformServices.Host?.LevelEditorUrl))
-            {
-                // A host that cannot quit leaves the third slot empty, so the editor takes it and
-                // the menu keeps the three-button shape it was laid out for.
-                Button exitButton = CreateButtonWithTextIDDelegate(Application.GetString("LEVEL_EDITOR_BUTTON"), MenuButtonId.LevelEditor, this);
-                _ = vBox.AddChild(exitButton);
-            }
             _ = designGroup.AddChild(vBox);
             bool hasFacebookButton = Application.GetString("FACEBOOK_BUTTON").Length > 0;
             if (hasFacebookButton)
@@ -1875,14 +1863,6 @@ namespace CutTheRopeDX.GameMain
                             GameController.CheckForBoxPerfect(i);
                         }
                         replayingIntroMovie = false;
-                        if (Preferences.GetScoreForPackLevel(0, 0) == 0 && PackConfig.IntroVideo != null)
-                        {
-                            ShowView(7);
-                            SoundMgr.StopMusic();
-                            Application.SharedMovieMgr().delegateMovieMgrDelegate = this;
-                            Application.SharedMovieMgr().PlayURL(PackConfig.IntroVideo, !Preferences.GetBooleanForKey("MUSIC_ON") && !Preferences.GetBooleanForKey("SOUND_ON"));
-                            return;
-                        }
                         MoviePlaybackFinished(null);
                         return;
                     }
