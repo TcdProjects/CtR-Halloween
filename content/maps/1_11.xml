@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map>
+  <layer name="settings">
+    <map gridSize="32" width="320" height="480" />
+    <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+  </layer>
+  <layer name="Objects">
+    <hand x="160" y="143" segmentsCount="2" segment1Angle="0" segment1Length="75" segment1Rotatable="true" segment2Angle="0" segment2Length="60" segment2Rotatable="true" />
+    <candy x="292" y="144" isDriven="false" candyNumber="0" />
+    <target x="265" y="419" />
+    <gravitySwitch x="65" y="424" />
+    <spike2 x="225" y="253" angle="90" size="2" toggled="false" />
+    <spike2 x="98" y="252" angle="90" size="2" toggled="false" />
+    <star x="163" y="256" timeout="-1" />
+    <ghost x="160" y="323" grab="true" bubble="true" bouncer="true" radius="75" angle="0" />
+    <spike2 x="160" y="93" angle="0" size="2" toggled="false" />
+    <spike2 x="160" y="27" angle="0" size="2" toggled="false" />
+    <star x="160" y="61" timeout="-1" />
+    <star x="191" y="414" timeout="-1" />
+  </layer>
+</map>

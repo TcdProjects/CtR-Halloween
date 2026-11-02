@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map>
+  <layer name="settings">
+    <map gridSize="32" width="320" height="480" />
+    <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+  </layer>
+  <layer name="Objects">
+    <gap x="67" y="68" angle="0" radius="50" activeTime="1.0" index="1" />
+    <candy x="67" y="64" isDriven="false" candyNumber="0" />
+    <target x="160" y="425" />
+    <gap x="256" y="68" angle="0" radius="50" activeTime="1.0" index="2" />
+    <gap x="65" y="379" angle="0" radius="50" activeTime="1" index="3" />
+    <gap x="256" y="379" angle="0" radius="50" activeTime="1.0" index="4" />
+    <rocket x="65" y="224" angle="0" impulse="20" impulseFactor="0.6" time="-1" isRotatable="true" />
+    <star x="259" y="142" timeout="-1" />
+    <rocket x="256" y="223" angle="180" impulse="20" impulseFactor="0.6" time="-1" isRotatable="true" />
+    <grab x="161" y="224" length="100" wheel="false" gun="false" radius="50" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" kickable="false" kicked="false" hidePath="false" invisible="false" breakable="true" />
+    <star x="117" y="119" timeout="-1" />
+    <star x="161" y="376" timeout="-1" />
+    <spike1 x="65" y="145" angle="0" size="1" toggled="false" />
+    <gravitySwitch x="-37" y="389" />
+    <spike1 x="66" y="303" angle="0" size="1" toggled="false" />
+    <spike1 x="161" y="340" angle="0" size="1" toggled="false" />
+  </layer>
+</map>

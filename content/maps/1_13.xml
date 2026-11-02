@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map>
+  <layer name="settings">
+    <map gridSize="32" width="320" height="480" />
+    <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+  </layer>
+  <layer name="Objects">
+    <hand x="160" y="226" segmentsCount="1" segment1Angle="-90" segment1Length="100" segment1Rotatable="true" />
+    <rocket x="256" y="407" angle="-90" impulse="20" impulseFactor="0.6" time="-1" isRotatable="true" />
+    <candy x="161" y="73" isDriven="false" candyNumber="0" />
+    <target x="160" y="425" />
+    <spike2 x="84" y="146" angle="45" size="2" toggled="false" />
+    <spike2 x="235" y="146" angle="-45" size="2" toggled="false" />
+    <spike2 x="86" y="296" angle="-45" size="2" toggled="false" />
+    <spike2 x="235" y="295" angle="45" size="2" toggled="false" />
+    <spike2 x="160" y="373" angle="0" size="2" toggled="false" />
+    <star x="161" y="334" timeout="-1" />
+    <spike1 x="160" y="287" angle="0" size="1" toggled="false" />
+    <grab x="159" y="21" length="25" wheel="false" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" kickable="false" kicked="false" hidePath="false" invisible="false" breakable="true" />
+    <gravitySwitch x="59" y="419" />
+    <sock x="314" y="217" group="0" angle="180" />
+    <sock x="6" y="137" group="0" angle="0" />
+    <star x="213" y="226" timeout="-1" />
+    <star x="65" y="227" timeout="-1" />
+  </layer>
+</map>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map>
+  <layer name="settings">
+    <map gridSize="32" width="320" height="480" />
+    <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+  </layer>
+  <layer name="Objects">
+    <steamTube x="160" y="417" angle="0" />
+    <candy x="160" y="367" isDriven="false" candyNumber="0" />
+    <target x="85" y="43" />
+    <spike4 x="160" y="403" angle="0" size="4" toggled="false" />
+    <transporter x="35" y="446" velocity="10" direction="forward" length="250" width="50" angle="0" type="manual" />
+    <star x="97" y="371" timeout="-1" />
+    <steamTube x="159" y="273" angle="0" />
+    <transporter x="35" y="302" velocity="10" direction="forward" length="250" width="50" angle="0" type="manual" />
+    <spike4 x="160" y="338" angle="0" size="4" toggled="false" />
+    <spike4 x="160" y="262" angle="0" size="4" toggled="false" />
+    <star x="232" y="228" timeout="-1" />
+    <spike4 x="160" y="194" angle="0" size="4" toggled="false" />
+    <rocket x="106" y="143" angle="-35" impulse="20" impulseFactor="0.6" time="-1" isRotatable="false" />
+    <rocket x="243" y="57" angle="180" impulse="20" impulseFactor="0.6" time="-1" isRotatable="false" />
+    <star x="170" y="49" timeout="-1" />
+    <gravitySwitch x="337" y="391" />
+  </layer>
+</map>

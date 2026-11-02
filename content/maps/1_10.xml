@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map>
+  <layer name="settings">
+    <map gridSize="32" width="320" height="480" />
+    <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+  </layer>
+  <layer name="Objects">
+    <target x="265" y="408" />
+    <candy x="90" y="124" isDriven="false" candyNumber="0" />
+    <bouncer1 x="73" y="150" size="1" angle="45" />
+    <bouncer1 x="245" y="150" size="1" angle="-45" />
+    <transporter x="0" y="151" velocity="10" direction="forward" length="320" width="50" angle="0" type="manual" />
+    <star x="67" y="60" timeout="-1" />
+    <star x="258" y="60" timeout="-1" />
+    <spike3 x="92" y="210" angle="0" size="3" toggled="false" />
+    <spike3 x="229" y="210" angle="0" size="3" toggled="false" />
+    <gravitySwitch x="156" y="438" />
+    <bouncer1 x="44" y="365" size="1" angle="45" />
+    <star x="187" y="366" timeout="-1" />
+    <spike2 x="255" y="294" angle="0" size="2" toggled="false" rotateSpeed="70" path="0,0" />
+    <spike2 x="255" y="295" angle="90" size="2" toggled="false" rotateSpeed="70" path="0,0" />
+  </layer>
+</map>

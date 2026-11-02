@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map>
+  <layer name="settings">
+    <map gridSize="32" width="320" height="480" />
+    <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+  </layer>
+  <layer name="Objects">
+    <candy x="101" y="67" isDriven="false" candyNumber="0" />
+    <gravitySwitch x="270" y="424" />
+    <target x="144" y="424" />
+    <bouncer1 x="276" y="264" size="1" angle="-45" />
+    <lantern x="272" y="154" candyCaptured="false" />
+    <bouncer1 x="287" y="348" size="1" angle="0" />
+    <star x="287" y="311" timeout="-1" />
+    <lantern x="60" y="308" candyCaptured="false" />
+    <grab x="150" y="35" length="75" wheel="false" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" kickable="false" kicked="false" hidePath="false" invisible="false" breakable="true" />
+    <grab x="37" y="35" length="35" wheel="false" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" kickable="false" kicked="false" hidePath="false" invisible="false" breakable="true" />
+    <bouncer1 x="-7" y="362" size="1" angle="40" />
+    <star x="20" y="331" timeout="-1" />
+    <bouncer1 x="45" y="429" size="1" angle="60" />
+    <star x="88" y="412" timeout="-1" />
+  </layer>
+</map>

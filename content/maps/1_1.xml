@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map>
+  <layer name="settings">
+    <map gridSize="32" width="320" height="480" />
+    <gameDesign ropePhysicsSpeed="1.0" twoParts="false" />
+  </layer>
+  <layer name="Objects">
+    <grab x="158" y="19" length="30" wheel="false" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" invisible="false" />
+    <target x="158" y="408" />
+    <star x="158" y="260" timeout="-1" />
+    <gravitySwitch x="59" y="375" />
+    <candy x="158" y="87" isDriven="false" candyNumber="0" />
+    <bouncer1 x="158" y="126" size="1" angle="0" />
+    <star x="158" y="171" timeout="-1" />
+    <bouncer1 x="158" y="209" size="1" angle="0" />
+    <bouncer1 x="158" y="305" size="1" angle="0" />
+    <star x="158" y="358" timeout="-1" />
+    <tutorialText x="-79" y="204" text="Candies cannot collide or interact with objects when the Ghost Button is active!" width="166" locale="en" />
+    <tutorial04 x="9" y="338" angle="-140" locale="en" />
+  </layer>
+</map>

@@ -1,0 +1,15 @@
+[
+    {
+        "packName": "BOX1_LABEL",
+        "boxBackground": ["bgr_01_p1", "bgr_01_p2"],
+        "boxBackgroundP2Y": 1120,
+        "boxCover": ["bgr_01_cover"],
+        "boxHoleBgColor": [70, 37, 0],
+        "levelCount": 15,
+        "musicPack": ["ctr_original"],
+        "packSpritesheet": "1",
+        "packQuadIndex": 0,
+        "sittingPlatform": 0,
+        "unlockStars": 0
+    }
+]

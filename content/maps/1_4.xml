@@ -1,0 +1,30 @@
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
+ 
+    Created using Cut the Rope Level Editor:
+    https://adriandrummis.github.io/CutTheRopeEditor/
+ 
+<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+ 
+<map>
+ 
+    <layer name="settings">
+        <map gridSize="32" width="320" height="480" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+    </layer>
+ 
+    <layer name="Objects">
+        <gravitySwitch x="235" y="155" />
+        <target x="204" y="420" />
+        <star x="204" y="379" timeout="30" />
+        <gap x="203" y="334" angle="0" activeTime="1" radius="50" index="2" />
+        <steamTube x="64" y="234" angle="90" />
+        <candy x="114" y="379" />
+        <steamTube x="112" y="409" angle="0" />
+        <spike2 x="139" y="264" angle="180" size="4" />
+        <star x="113" y="293" timeout="-1" />
+        <spike2 x="115" y="329" angle="180" size="2" />
+        <star x="113" y="147" timeout="20" />
+        <gap x="115" y="83" angle="0" activeTime="1" radius="50" index="1" />
+    </layer>
+ 
+</map>

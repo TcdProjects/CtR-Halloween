@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map>
+  <layer name="settings">
+    <map gridSize="32" width="320" height="480" />
+    <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+  </layer>
+  <layer name="Objects">
+    <tutorialText x="-168" y="297" text="Candies cannot enter bubbles while in Ghost Mode but can change states while inside a bubble!" width="211" locale="en" />
+    <grab x="70" y="55" length="35" wheel="false" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" kickable="false" kicked="false" hidePath="false" invisible="false" breakable="true" />
+    <candy x="69" y="106" isDriven="false" candyNumber="0" />
+    <spike1 x="69" y="170" angle="0" size="1" toggled="false" />
+    <lantern x="69" y="228" candyCaptured="false" />
+    <spike1 x="71" y="289" angle="0" size="1" toggled="false" />
+    <bubble x="71" y="418" />
+    <star x="72" y="347" timeout="-1" />
+    <gravitySwitch x="160" y="422" />
+    <lantern x="160" y="106" candyCaptured="false" />
+    <spike1 x="160" y="170" angle="0" size="1" toggled="false" />
+    <star x="160" y="225" timeout="-1" />
+    <spike1 x="160" y="289" angle="0" size="1" toggled="false" />
+    <bubble x="160" y="347" />
+    <target x="255" y="77" />
+    <lantern x="255" y="170" candyCaptured="false" />
+    <spike1 x="255" y="289" angle="0" size="1" toggled="false" />
+    <bubble x="255" y="347" />
+    <star x="255" y="418" timeout="-1" />
+  </layer>
+</map>
