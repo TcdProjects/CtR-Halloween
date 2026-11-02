@@ -446,7 +446,7 @@
         "version": "1.0",
         "image": "menu_logo_new.png",
         "format": "RGBA8888",
-        "size": { "w": 4022, "h": 982 },
+        "size": { "w": 4022, "h": 1800 },
         "scale": "1",
         "smartupdate": "$TexturePacker:SmartUpdate:e76cb09a2415c67fccc6a8a0a83c9717:481106083a3d82903012ce116972496f:7eeb4f4478df129137498c91647836b5$"
     }
