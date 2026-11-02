@@ -1657,17 +1657,7 @@ namespace CutTheRopeDX.GameMain
                 return;
             }
             replayingIntroMovie = false;
-            if (PackConfig.OutroVideo != null)
-            {
-                packContainer.PlaceToScrollPoint(root.Pack + 1);
-                SoundMgr.StopMusic();
-                Application.SharedMovieMgr().delegateMovieMgrDelegate = this;
-                Application.SharedMovieMgr().PlayURL(PackConfig.OutroVideo, !Preferences.GetBooleanForKey("MUSIC_ON") && !Preferences.GetBooleanForKey("SOUND_ON"));
-            }
-            else
-            {
-                MoviePlaybackFinished(null);
-            }
+            MoviePlaybackFinished(null);
         }
 
         /// <inheritdoc />
