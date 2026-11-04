@@ -8,14 +8,14 @@
     <grab x="158" y="19" length="30" wheel="false" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" invisible="false" />
     <target x="158" y="408" />
     <star x="158" y="260" timeout="-1" />
-    <gravitySwitch x="59" y="375" />
+    <gravitySwitch x="83" y="405" />
     <candy x="158" y="87" isDriven="false" candyNumber="0" />
     <bouncer1 x="158" y="126" size="1" angle="0" />
     <star x="158" y="171" timeout="-1" />
     <bouncer1 x="158" y="209" size="1" angle="0" />
     <bouncer1 x="158" y="305" size="1" angle="0" />
     <star x="158" y="358" timeout="-1" />
-    <tutorialText x="-79" y="204" text="Candies cannot collide or interact with objects when the Ghost Button is active!" width="166" locale="en" />
-    <tutorial04 x="9" y="338" angle="-140" locale="en" />
+    <tutorialText x="-25" y="196" text="Candies cannot collide or interact with objects when the Ghost Button is active!" width="136" locale="en" />
+    <tutorial04 x="44" y="351" angle="-122" locale="en" />
   </layer>
 </map>

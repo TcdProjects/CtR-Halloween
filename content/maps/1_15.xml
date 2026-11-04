@@ -10,11 +10,11 @@
     <candy x="61" y="59" isDriven="false" candyNumber="0" />
     <target x="238" y="426" />
     <load x="62" y="130" />
-    <pump x="-9" y="176" angle="0" />
-    <pump x="316" y="238" angle="180" />
-    <star x="252" y="241" timeout="5" />
-    <pump x="-14" y="298" angle="0" />
-    <star x="65" y="304" timeout="8" />
+    <pump x="27" y="175" angle="0" />
+    <pump x="294" y="238" angle="180" />
+    <star x="240" y="241" timeout="5" />
+    <pump x="14" y="296" angle="0" />
+    <star x="78" y="302" timeout="8" />
     <spike2 x="234" y="391" angle="0" size="2" toggled="false" />
     <star x="234" y="351" timeout="10" />
     <spike1 x="172" y="176" angle="90" size="1" toggled="false" />

@@ -20,6 +20,6 @@
     <rocket x="106" y="143" angle="-35" impulse="20" impulseFactor="0.6" time="-1" isRotatable="false" />
     <rocket x="243" y="57" angle="180" impulse="20" impulseFactor="0.6" time="-1" isRotatable="false" />
     <star x="170" y="49" timeout="-1" />
-    <gravitySwitch x="337" y="391" />
+    <gravitySwitch x="257" y="132" />
   </layer>
 </map>

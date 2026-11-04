@@ -19,6 +19,5 @@
     <pump x="289" y="247" angle="180" />
     <pump x="27" y="377" angle="0" />
     <gravitySwitch x="306" y="424" />
-    <tutorialText x="-147" y="251" text="Candies can still be affected by air cushions even while in Ghost Mode!" width="190" locale="en" />
   </layer>
 </map>

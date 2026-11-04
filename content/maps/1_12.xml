@@ -18,7 +18,7 @@
     <star x="117" y="119" timeout="-1" />
     <star x="161" y="376" timeout="-1" />
     <spike1 x="65" y="145" angle="0" size="1" toggled="false" />
-    <gravitySwitch x="-37" y="389" />
+    <gravitySwitch x="162" y="121" />
     <spike1 x="66" y="303" angle="0" size="1" toggled="false" />
     <spike1 x="161" y="340" angle="0" size="1" toggled="false" />
   </layer>

@@ -5,7 +5,6 @@
     <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
   </layer>
   <layer name="Objects">
-    <tutorialText x="-168" y="297" text="Candies cannot enter bubbles while in Ghost Mode but can change states while inside a bubble!" width="211" locale="en" />
     <grab x="70" y="55" length="35" wheel="false" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" kickable="false" kicked="false" hidePath="false" invisible="false" breakable="true" />
     <candy x="69" y="106" isDriven="false" candyNumber="0" />
     <spike1 x="69" y="170" angle="0" size="1" toggled="false" />

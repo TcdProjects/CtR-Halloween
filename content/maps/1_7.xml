@@ -15,7 +15,7 @@
     <star x="116" y="236" timeout="-1" />
     <star x="208" y="327" timeout="-1" />
     <bubble x="209" y="430" />
-    <gravitySwitch x="320" y="395" />
+    <gravitySwitch x="281" y="433" />
     <lantern x="114" y="327" candyCaptured="false" />
     <lantern x="209" y="50" candyCaptured="false" />
     <bouncer1 x="114" y="426" size="1" angle="0" />

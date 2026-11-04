@@ -18,7 +18,7 @@
     <star x="114" y="291" timeout="-1" />
     <star x="211" y="192" timeout="-1" />
     <pump x="270" y="189" angle="180" />
-    <gravitySwitch x="315" y="449" />
+    <gravitySwitch x="262" y="280" />
     <spike2 x="160" y="235" angle="0" size="2" toggled="false" />
     <spike2 x="160" y="339" angle="0" size="2" toggled="false" />
     <ghost x="160" y="452" grab="false" bubble="true" bouncer="false" radius="-1" angle="0" />
