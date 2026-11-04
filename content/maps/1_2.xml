@@ -7,7 +7,7 @@
   <layer name="Objects">
     <bouncer1 x="160" y="444" size="1" angle="0" />
     <pump x="160" y="331" angle="90" />
-    <candy x="158" y="75" isDriven="false" candyNumber="0" />
+    <candy x="159" y="412" isDriven="false" candyNumber="0" />
     <target x="46" y="162" />
     <bouncer1 x="160" y="278" size="1" angle="0" />
     <gravitySwitch x="55" y="408" />
